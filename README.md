@@ -69,6 +69,9 @@ I also completed the github repo, posted my favorite thread, and included the ca
 VALIDCOMMENTS
 
 I created `bot_submissions.py` and posted at least 200 text/link posts which earns me 2 points. 
+
 I completed the bot army task where every bot got at least 500 comments which earns me 2 points. 
+
 Instead of randomly replying, I replied to the most upvoted comment which earns me 2 points. 
+
 I created the `bot_vote.py` file, used TextBlob, and ran it on at least 100 submissions which earns me 4 points. 
