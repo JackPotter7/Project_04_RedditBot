@@ -14,17 +14,17 @@ Here is a [link](https://old.reddit.com/r/cs40_2022fall/comments/z0h7ar/dont_giv
 Running the `bot_counter.py` file on my bot *masterfulcoolbot* yields these results: 
 ```
 len(comments)= 1000
-len(top_level_comments)= 338
-len(replies)= 662
-len(valid_top_level_comments)= 332
-len(not_self_replies)= 659
+len(valid_top_level_comments)= 345
+len(top_level_comments)= 345
+len(replies)= 655
+len(not_self_replies)= 655
 len(valid_replies)= 655
 ========================================
-valid_comments= 987
+valid_comments= 1000
 ========================================
 NOTE: the number valid_comments will be used to determine your grade
 ```
-Note: I orignally had 1000 valid comments but something happend in my code as I was working on EC. Instead of spending the time to debug, I decided to work on more EC.
+
 
 # Extra Credit
 
@@ -66,7 +66,7 @@ I completed each task in `bot.py` which should earn me 12 points.
 
 I also completed the github repo, posted my favorite thread, and included the candidate I am supporting (Joe Biden) which earns me 3 more points.
 
-VALIDCOMMENTS
+I got 1000 valid comments which earns me 10 points. 
 
 I created `bot_submissions.py` and posted at least 200 text/link posts which earns me 2 points. 
 
@@ -75,3 +75,5 @@ I completed the bot army task where every bot got at least 500 comments which ea
 Instead of randomly replying, I replied to the most upvoted comment which earns me 2 points. 
 
 I created the `bot_vote.py` file, used TextBlob, and ran it on at least 100 submissions which earns me 4 points. 
+
+I created the  `bot_dm.py` file, where I sent over 100 randomly genereated direct messages earning me 2 points.  
