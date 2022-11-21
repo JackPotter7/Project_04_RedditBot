@@ -43,8 +43,10 @@ I was able to create an army of bots (masterfulcoolbot0, masterfulcoolbot1, mast
 **Bot_dm.py**
 
 I used `bot_dm.py` to send randomly generated direct messages to another reddit account I created called botreceiverofdms. I sent/received over 100 messages. Proof of this can be found in the images below:
-![dmcount](https://github.com/JackPotter7/Project_04_RedditBot/blob/main/dms1.png)
 
+
+![dmcount](https://github.com/JackPotter7/Project_04_RedditBot/blob/main/dms1.png)
+![dminbox](https://github.com/JackPotter7/Project_04_RedditBot/blob/main/dms2.png)
 
 **Replying to Most Upvoted**
 
