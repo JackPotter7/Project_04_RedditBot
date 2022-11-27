@@ -60,6 +60,28 @@ for c in comments_without_replies:
 most_upvoted.reply(generate_comment()
 ```
 
+**Markovify**
+
+I used the following code in conjuction with the `sentences.txt` file to generate comments in a more advanced way.
+```
+def generate_comment_markovify(c):
+
+    # Get raw text as string.
+    with open("/Users/jackpotter/Desktop/CMC/Classes/Soph Fall/CS 40/topic_10_reddit_bot/sentences.txt") as f:
+        sentences = f.read()
+
+    # Build the models.
+    text_model_JROD = markovify.Text(sentences)
+    text_model_comment = markovify.Text(str(c.body))
+
+    # Comine the models 
+    model_combo = markovify.combine([ text_model_JROD, text_model_comment ], [ 1, 4 ])
+    
+
+    # Print five randomly-generated sentences
+    return (model_combo.make_sentence())
+```
+
 # Grading 
 
 I completed each task in `bot.py` which should earn me 12 points. 
