@@ -76,4 +76,8 @@ Instead of randomly replying, I replied to the most upvoted comment which earns 
 
 I created the `bot_vote.py` file, used TextBlob, and ran it on at least 100 submissions which earns me 4 points. 
 
-I created the  `bot_dm.py` file, where I sent over 100 randomly genereated direct messages earning me 2 points.  
+I created the  `bot_dm.py` file, where I sent over 100 randomly genereated direct messages earning me 2 points. 
+
+I also completed the markoviy extension for generating comments. This new function in `bot.py` bases its text off of the `sentences.txt` file and the comment it is replying to. This earns me 5 points.
+
+Overall, I believe I earned 42 points on this assignment. 
